@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.carouselsetting {
+    width: 100vw;
+    height: 28vw;
+}
+
+.frontimage {
+    height: 300px;
+    width: 300px;
+}
+
+.boldness {
+    font-weight: 500;
+}
+
+.setImage {
+    width: 100vw;
+}
+
+.mobile {
+    width: 14vw;
+    height: 5vw;
+}
+
+.borderless {
+    border: 0px solid white;
+    padding: 0px 0px 0px 20px;
+}
+
+#onhover:hover {
+    background-color: rgb(96, 93, 236);
+    cursor: pointer;
+    border-radius: 10px;
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;*/
+}
+
+.marginlist {
+    margin-right: 45px !important;
+}
+
+li.active {
+    background-color: rgb(96, 93, 236) !important;
+    border-radius: 12px;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+
+/* Works */
+
+.worksImg {
+    width: 22vw;
+    height: 18vw;
+    display: inline-flex;
+    margin: 10px;
+    transition: transform .5s;
+    border: rgb(96, 93, 236);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.worksImg:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.setImage {
+    width: 100vw;
+    height: 30vw;
+}
+
+
+/* code for Mobile devices */
+
+@media(max-width: 600px) {
+    .setImage {
+        width: 100vw;
+        height: 60vw;
+    }
+}
+
+@media(max-width: 750px) {
+    .frontimage {
+        width: 93vw;
+        height: 60vw;
+        padding-top: 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .mobile {
+        width: 93vw;
+        height: 31vw;
+    }
+}
+
+@media(max-width: 767px) {
+    .carouselsetting {
+        width: 100vw;
+        height: 60vw;
+    }
+}
+
+@media(max-width: 992px) {
+    .btnSetting {
+        background-color: rgb(96, 93, 236);
+    }
+}
+
+@media(max-width: 338px) {
+    .upperLogo {
+        width: 60vw;
+        height: 20vw;
+    }
+}
+
+@media(max-width:400px) {
+    .worksImg {
+        width: 38vw;
+        height: 30vw;
+    }
+}
